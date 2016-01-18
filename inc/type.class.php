@@ -1847,7 +1847,7 @@ class PluginGenericobjectType extends CommonDBTM {
                            `is_active` tinyint(1) NOT NULL default '0',
                            `name` varchar(255) collate utf8_unicode_ci default NULL,
                            `comment` text NULL,
-                           `date_mod` datetime NOT NULL default '0000-00-00 00:00:00',
+                           `date_mod` datetime NULL,
                            `use_global_search` tinyint(1) NOT NULL default '0',
                            `use_unicity` tinyint(1) NOT NULL default '0',
                            `use_history` tinyint(1) NOT NULL default '0',
